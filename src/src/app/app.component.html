@@ -1,13 +1,7 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
-    Marvellous Infosystems Child to parent communication
+    Marvellous Infosystems : Component Communication
+    <!-- Send data to child component-->
+    <app-child [parentData]="message"></app-child>
   </h1>
-  <!--
-    Bind the event with the container
-  -->
-  <app-child (MyEvent)="Message= $event"></app-child>
-
-  <!-- Display the message received from child-->
-  <h2>{{Message}}</h2>  
 </div>

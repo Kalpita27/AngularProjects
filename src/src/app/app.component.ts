@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent 
 {
-  public Message: any;
+   // String that we want to send to the child component
+   public message = "Hello Child Component";
 }
