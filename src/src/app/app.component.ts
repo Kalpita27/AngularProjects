@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent 
-{
-   // String that we want to send to the child component
-   public message = "Hello Child Component";
+export class AppComponent {
+  title = 'Assignment';
 }
