@@ -1,0 +1,25 @@
+.form-group{
+    margin-left: 15%;
+}
+.form-control{
+    border: 2px solid rgba(254, 49, 223, 0.507);
+}
+.btn{
+    padding: 14px 22px;
+    transition: all 0.4 ease;
+    }
+    
+.btn-main{
+        background: linear-gradient( to right,#B326CA 14.98%, #4200FF 103.58%);
+        border-radius: 50px;
+        padding: 10px 28px 11px 28px;
+        border: none;
+        font-weight: 550;
+        color: white;
+    }
+.btn:hover{
+        color: white;
+        transform: translateY(-5px);
+        background: linear-gradient(to right, #00e0fe, #1107fe);
+        box-shadow: 0 12px 20px rgba(7, 7, 7, 0.384)
+    }
